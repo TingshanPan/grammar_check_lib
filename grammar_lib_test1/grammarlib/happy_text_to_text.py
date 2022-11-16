@@ -5,11 +5,11 @@ from dataclasses import dataclass
 
 from transformers import Text2TextGenerationPipeline, AutoModelForSeq2SeqLM
 
-from grammar_lib_test1.happy_transformer import HappyTransformer
-from grammar_lib_test1.tt.trainer import TTTrainer
-from grammar_lib_test1.cuda_detect import detect_cuda_device_number
-from grammar_lib_test1.adaptors import get_adaptor
-from grammar_lib_test1.tt.trainer import TTTrainArgs, TTEvalArgs, TTTestArgs
+from grammarlib.happy_transformer import HappyTransformer
+from grammarlib.tt.trainer import TTTrainer
+from grammarlib.cuda_detect import detect_cuda_device_number
+from grammarlib.adaptors import get_adaptor
+from grammarlib.tt.trainer import TTTrainArgs, TTEvalArgs, TTTestArgs
 
 
 @dataclass
