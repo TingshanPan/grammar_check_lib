@@ -10,7 +10,7 @@ Based on the following sources:
 """
 
 from dataclasses import dataclass
-from happytransformer.happy_trainer import HappyTrainer, EvalResult
+from grammarlib.happy_trainer import HappyTrainer, EvalResult
 from datasets import load_dataset
 from transformers import DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer
 import tempfile
