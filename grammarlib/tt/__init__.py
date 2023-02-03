@@ -1,2 +1,2 @@
 from .trainer import TTTrainer
-name = "happytransformer.tt"
+name = "grammarlib.tt"
